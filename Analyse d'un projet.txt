@@ -1,0 +1,31 @@
+BREF DESCRIPTIF DU PROJET
+
+Nom de l'application: LovinGame
+Application web de rencontre via les jeux-vidéos
+L'application propose des profils de joueurs ou de joueuse selon les jeux sélectionnés par l'utilisateur.
+Elle propose un chat intégré et des fiches de profils.
+Certaines informations comme le prénom du joueurs ne sont pas présent pour permettre au utilisateurs de se dévoilé lors de leurs potentielles conversations.
+
+DICTIONNAIRE DE DONNEES
+Pseudo du joueur               (varchar 45)
+Date de naissance du joueur    (date)
+Jeux principal du joueur       (varchar 45)
+Jeux secondaire du joueur      (varchar 45)
+Description du joueur          (text)
+Rythme de jeu du joueur        (varchar 45)
+Nom de jeu		       (varchar 45)
+Style de jeu                   (varchar 45)
+
+CONCEPTS
+Pseudo  du joueur              concept USER
+Date de naissance du joueur    concept USER
+Jeux principal du joueur       concept USER
+Jeux secondaire du joueur      concept USER
+Description du joueur          concept USER
+Rythme de jeu du joueur        concept USER
+Nom de jeu                     concept JEUX
+Style de jeu                   concept JEUX
+
+MATRICE DE DEPENDANCE FONCTIONNELE
+Lien fichier exel :
+https://docs.google.com/spreadsheets/d/12N_cor93mKDsE10izUPSW2kElnCJ5fe8MW2X0M8lqUU/edit?usp=sharing
